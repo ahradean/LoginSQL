@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:id="@+id/regis_button">
+
+    <TextView
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:textSize="50sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/login_text"
+        android:layout_below="@+id/text"
+        android:layout_alignRight="@+id/pass_text"
+        android:layout_alignEnd="@+id/pass_text"
+        android:hint="username"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/pass_text"
+        android:layout_below="@+id/login_text"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="password"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <Button
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass_text"
+        android:id="@+id/login_button"
+        android:layout_alignRight="@+id/pass_text"
+        android:layout_alignEnd="@+id/pass_text"
+        android:layout_alignLeft="@+id/pass_text"
+        android:layout_alignStart="@+id/pass_text"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="90dp"
+        android:paddingRight="90dp" />
+
+    <Button
+android:text="register a new account"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"
+android:id="@+id/regis_account_button"
+android:layout_alignRight="@+id/login_button"
+android:layout_alignEnd="@+id/login_button"
+android:layout_alignLeft="@+id/login_button"
+android:layout_alignStart="@+id/login_button"
+android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp" />
+</LinearLayout>
